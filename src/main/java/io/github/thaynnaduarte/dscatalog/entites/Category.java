@@ -1,7 +1,6 @@
 package io.github.thaynnaduarte.dscatalog.entites;
 
 import jakarta.persistence.*;
-import jdk.jfr.Enabled;
 
 import java.io.Serializable;
 import java.util.Objects;
@@ -19,7 +18,6 @@ public class Category implements Serializable {
 
 
     public Category() {
-
     }
 
     public Category(long id, String name) {
@@ -54,6 +52,4 @@ public class Category implements Serializable {
     public int hashCode() {
         return Objects.hashCode(id);
     }
-
-
 }
