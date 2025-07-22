@@ -1,7 +1,7 @@
 package io.github.thaynnaduarte.dscatalog.services;
 
 import io.github.thaynnaduarte.dscatalog.dto.CategoryDTO;
-import io.github.thaynnaduarte.dscatalog.entites.Category;
+import io.github.thaynnaduarte.dscatalog.entities.Category;
 import io.github.thaynnaduarte.dscatalog.repositories.CategoryRepository;
 import io.github.thaynnaduarte.dscatalog.services.exceptions.DatabaseException;
 import io.github.thaynnaduarte.dscatalog.services.exceptions.ResourceNotFoundException;
@@ -14,9 +14,7 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 @Service
 public class CategoryService {

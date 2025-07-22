@@ -1,4 +1,4 @@
-package io.github.thaynnaduarte.dscatalog.entites;
+package io.github.thaynnaduarte.dscatalog.entities;
 
 import jakarta.persistence.*;
 

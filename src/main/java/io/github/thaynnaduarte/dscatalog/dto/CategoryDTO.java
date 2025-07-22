@@ -1,9 +1,8 @@
 package io.github.thaynnaduarte.dscatalog.dto;
 
-import io.github.thaynnaduarte.dscatalog.entites.Category;
+import io.github.thaynnaduarte.dscatalog.entities.Category;
 
 import java.io.Serializable;
-import java.util.Objects;
 
 public class CategoryDTO implements Serializable {
 
